@@ -246,8 +246,6 @@ const SideNav: React.FC<ISideNav> = ({externalTools = []}) => {
                 <IconCanvasLogoSolid
                   data-testid="sidenav-canvas-logo"
                   size={collapseSideNav ? 'small' : 'medium'}
-                  // unsure why this is necessary?
-                  style={{display: 'none'}}
                 />
               ) : (
                 <Img
